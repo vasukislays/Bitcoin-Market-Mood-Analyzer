@@ -1,0 +1,114 @@
+================================================================================
+TRADING SENTIMENT ANALYSIS - COMPREHENSIVE INSIGHTS REPORT
+================================================================================
+
+### KEY FINDINGS ###
+
+1. OVERALL TRADING PERFORMANCE
+----------------------------------------
+Total Trades: 211,218
+Gross PnL: $10,254,486.95
+Net PnL (after fees): $10,008,637.74
+Overall Win Rate: 41.1%
+Average PnL per Trade: $48.55
+Median PnL: $0.00
+
+2. SENTIMENT-PERFORMANCE CORRELATION
+----------------------------------------
+Pearson Correlation (sentiment value vs PnL): 0.0081 (p=0.0002)
+Spearman Correlation (sentiment class vs PnL): 0.0298 (p=0.0000)
+Interpretation: WEAK positive correlation detected
+Higher sentiment values slightly associated with better performance
+
+3. PERFORMANCE BY SENTIMENT PHASE
+----------------------------------------
+  Extreme Fear    - Trades:  21400 | Win Rate:  37.1% | Avg PnL: $   34.54 | Total: $     739,110
+  Fear            - Trades:  61837 | Win Rate:  42.1% | Avg PnL: $   54.29 | Total: $   3,357,155
+  Neutral         - Trades:  37686 | Win Rate:  39.7% | Avg PnL: $   34.31 | Total: $   1,292,921
+  Greed           - Trades:  50303 | Win Rate:  38.5% | Avg PnL: $   42.74 | Total: $   2,150,129
+  Extreme Greed   - Trades:  39992 | Win Rate:  46.5% | Avg PnL: $   67.89 | Total: $   2,715,171
+
+4. BUY vs SELL PERFORMANCE
+----------------------------------------
+BUY Trades:
+  Count: 102,690
+  Win Rate: 27.4%
+  Avg PnL: $35.69
+  Total PnL: $3,665,339
+
+SELL Trades:
+  Count: 108,528
+  Win Rate: 54.1%
+  Avg PnL: $60.71
+  Total PnL: $6,589,148
+
+KEY INSIGHT: SELL trades outperform BUY trades by 26.7% in win rate
+Avg PnL advantage (SELL): $25.02 per trade
+
+5. OPTIMAL TRADING CONDITIONS
+----------------------------------------
+Best Average PnL: Extreme Greed ($67.89 per trade)
+Best Win Rate: Extreme Greed (46.5%)
+
+During Extreme Greed periods:
+  - Average PnL is 1.4x the overall average
+  - Win rate is 113.1% higher than overall
+
+6. BEST AND WORST TRADING HOURS
+----------------------------------------
+Best Hours (by avg PnL):
+  Hour 12 IST: $ 131.17 avg PnL,  43.7% win rate
+  Hour  7 IST: $  83.03 avg PnL,  39.8% win rate
+  Hour 11 IST: $  76.86 avg PnL,  49.4% win rate
+
+Worst Hours (by avg PnL):
+  Hour 23 IST: $  18.75 avg PnL,  43.3% win rate
+  Hour 14 IST: $  23.12 avg PnL,  37.2% win rate
+  Hour 21 IST: $  31.17 avg PnL,  43.6% win rate
+
+7. RISK ANALYSIS
+----------------------------------------
+Standard Deviation: $917.99
+Max Win: $135,329.09
+Max Loss: $-117,990.10
+Risk/Reward Ratio: 0.87
+Sharpe Ratio (daily): 0.30
+Max Drawdown occurred on: 2025-04-23
+
+================================================================================
+### ACTIONABLE TRADING STRATEGIES ###
+================================================================================
+
+1. SENTIMENT-BASED STRATEGY
+----------------------------------------
+Recommendation: BIAS TOWARD SELL OPERATIONS during Extreme Greed phases
+  - Sell trades have 26.7% higher win rate than buys
+  - In Extreme Greed: 22052 SELL vs 17940 BUY trades
+  - Extreme Greed shows highest profitability for this strategy
+
+2. TIME-BASED STRATEGY
+----------------------------------------
+Recommendation: CONCENTRATE VOLUME during peak hours (12-13 IST)
+  - Hour 12 IST: $131.17 avg PnL
+  - Hour 13 IST: $52.38 avg PnL
+  - Avoid hours 23 IST and 14 IST (low profitability)
+
+3. POSITION SIZING STRATEGY
+----------------------------------------
+Recommendation: INCREASE SIZE in Extreme Greed, REDUCE in Extreme Fear
+  - Current avg trade size: $5,639.19
+  - Extreme Greed advantage: 1.4x better
+
+4. RISK MANAGEMENT RULES
+----------------------------------------
+  - Maximum Single Trade Loss: $-117,990.10 (consider position limits)
+  - Daily Loss Threshold: $71930.15 (1 std dev)
+  - Stop Loss Level: 1890.8% of avg trade
+
+5. PORTFOLIO DIVERSIFICATION
+----------------------------------------
+  - Distribute capital across 5 best-performing accounts
+  - Account diversity reduces idiosyncratic risk
+  - Current account concentration: Top 5 = 62.0% of profits
+
+================================================================================
